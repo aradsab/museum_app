@@ -20,7 +20,7 @@
         <h2>Count Visitors</h2>
 
         <h3>Filter Exhibits with Above-Average Attendance in their activities</h3>
-        <p>Please enter number of minimum visitors that have attended activities in exhibits</p>
+        <p>Please enter number of minimum visitors that have attended exhibits</p>
         <form method="POST" id="frontdesk-add-ticket">
         <input type="hidden" id="register-visitor-request" name="register-visitor-request">
         Minimum number of visitors: <input type="number" name="visitor-count" required>

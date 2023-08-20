@@ -79,7 +79,6 @@
         $name = $_POST['name'];
         $email = $_POST['author'];
         $visitorID = $_POST['visitor-id'];
-        $name = executePlainSQL("SELECT MAX(VISITOR_ID) FROM VISITOR");
 
         executePlainSQL( "INSERT INTO visitor (visitor_id,name, email) VALUES (" . $visitorID . ", '" . $name . "', '" . $email . "')");
 
